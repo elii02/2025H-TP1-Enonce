@@ -5,7 +5,7 @@
 # Arrondir le pourcentage à la dizaine la plus proche
 
 # Calculer le nombre de barres
-
+#hello
 # Afficher la représentation graphique de la charge de la batterie
 
 # Exemple d'utilisation :
