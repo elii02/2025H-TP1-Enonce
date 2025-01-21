@@ -1,8 +1,8 @@
 # Demander le nom complet de l'utilisateur
 # Demander l'âge de l'utilisateur
 
-nom = input("Veuillez entrer votre nom complet :")
-age = int(input("Veuillez entrer votre age :"))
+nom = input("Veuillez entrer votre nom complet : ")
+age = int(input("Veuillez entrer votre âge : "))
 
 # Définir l'année actuelle
 # Calculer l'année de naissance
@@ -14,4 +14,4 @@ anneeDeNaissance = annee - age
 # Afficher l'année de naissance
 
 print("Bonjour", nom)
-print("Vous etes ne(e) en ", anneeDeNaissance)
+print("Vous êtes né(e) en ", anneeDeNaissance)
