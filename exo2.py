@@ -5,7 +5,7 @@ battery_level = int(input("Entrez le niveau de batterie actuel: "))
 if battery_level >= 0 and battery_level <= 100:
     print("Niveau de batterie accepté")
 else:
-    print("Entrez un niveau de batterie entre 0 et 100 inclusivement")
+    print("Erreur: niveau de charge invalide.\nEntrez un niveau de batterie entre 0 et 100 inclusivement.")
 
 # Arrondir le pourcentage à la dizaine la plus proche
 battery_level = round(battery_level/10)*10
