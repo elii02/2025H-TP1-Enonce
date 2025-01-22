@@ -21,10 +21,10 @@ if naPasDeSolution:
     # afficher sur l'écran "Aucune racine"
     # print("Aucune racine")
 
-    print("Pour a =", a, ", b =", b, "et c =", c)
+    print(f"Pour a = {a}, b = {b} et c = {c}")
     print("Aucune racine")
+    pass 
 
-    pass
 else:
     # Déterminer la condition (bool) qui correspond à une unique solution de l'équation et mettre la valeur dans "aUneSeuleSolution"
     # aUneSeuleSolution = ...
@@ -44,10 +44,10 @@ else:
 
         x1 = -b / (2 * a)
 
-        print("Pour a =", a, ", b =", b, "et c =", c)
+        print(f"Pour a = {a}, b = {b} et c = {c}")
         print(delta)
         print("Une seule racine")
-        print("x1 =", x1)
+        print(f"x1 = {x1}")
 
         pass
     else:
@@ -65,13 +65,13 @@ else:
             # x2 = ...
             # print(x1, x2)
 
-            x1 = round((-b + math.sqrt(delta)) / (2 * a), 2)
-            x2 = round((-b - math.sqrt(delta)) / (2 * a), 2)
+            x1 = round((-b - math.sqrt(delta)) / (2 * a), 2)
+            x2 = round((-b + math.sqrt(delta)) / (2 * a), 2)
 
-            print("Pour a =", a, ", b =", b, "et c =", c)
-            print(delta)
+            print(f"Pour a = {a}, b = {b} et c = {c}")
+            print(f"delta = {delta}")
             print("Deux racines")
-            print("x1 =", x1, ", x2 =", x2)
+            print(f"x1 = {x1} et x2 = {x2}")
             pass
 
 # Exemple d'utilisation:
