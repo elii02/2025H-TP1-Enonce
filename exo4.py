@@ -40,7 +40,7 @@ print(f"Le nombre de minutes est de {minutes}")
 minutes_restantes = minutes_completes % 1
 
 # TODO: Assigner à la variable "secondes" le nombre de secondes restantes
-secondes = minutes_restantes*60
+secondes = round(minutes_restantes*60, 2)
 print(f"Le nombre de secondes est de {secondes}")
 
 # TODO: Afficher le nombres d'années, semaines, jours, heures, minutes et secondes
